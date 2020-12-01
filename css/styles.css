@@ -1,0 +1,243 @@
+:root {
+     --main-font: "Open Sans", sans-serif;
+     --secondary-font: "Raleway", sans-serif;
+     --title-font-size: 42px;
+     --text-font-size: 18px;
+     --text-color-light-theme: #555555;
+     --text-color-dark-theme: #9da4bd;
+     --title-color-light-theme: #303030;
+     --title-color-dark-theme: #ffffff;
+     --modal-btn-color-light-theme: #303030;
+     --modal-btn-color-dark-theme: #ffffff;
+     --accent-color: #ff6c00;
+}
+
+body {
+     font-family: var(--main-font);
+     font-style: normal;
+     color: var(--text-color-light-theme);
+}
+
+.link {
+     text-decoration: none;
+}
+
+.list {
+     list-style: none;
+}
+
+.address {
+     font-style: normal;
+}
+
+/* ================ COMPONENTS ============== */
+
+.subtitle {
+     font-weight: 600;
+     font-size: 11px;
+     line-height: 1.364;
+     letter-spacing: 0.1em;
+     text-transform: uppercase;
+}
+
+.subtitle-dark-theme {
+     color: var(--text-color-dark-theme);
+}
+
+.subtitle-light-theme {
+     color: var(--text-color-light-theme);
+}
+
+.title {
+     font-family: var(--main-font);
+     font-weight: bold;
+     font-size: var(--title-font-size);
+     line-height: 1.167;
+     letter-spacing: 0.05em;
+}
+
+.title-dark-theme {
+     color: var(--title-color-dark-theme);
+}
+
+.title-light-theme {
+     color: var(--title-color-light-theme);
+}
+
+.text {
+     font-weight: normal;
+     font-size: var(--text-font-size);
+     line-height: 1.667;
+     letter-spacing: 0.02em;
+}
+
+.text-dark-theme {
+     color: var(--text-color-dark-theme);
+}
+
+.text-light-theme {
+     color: var(--text-color-light-theme);
+}
+
+.modal-btn {
+     font-family: "Open Sans", sans-serif;
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 1.333;
+     letter-spacing: 0.1em;
+     text-transform: uppercase;
+     cursor: pointer;
+}
+
+.modal-btn-light-theme {
+     color: var(--modal-btn-color-light-theme);
+}
+
+.modal-btn-dark-theme {
+     color: var(--modal-btn-color-dark-theme);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+     background-color: var(--accent-color);
+}
+
+.social-link {
+     font-weight: 600;
+     font-size: 11px;
+     line-height: 1.364;
+     letter-spacing: 0.2em;
+}
+
+.social-link:hover,
+.social-link:focus {
+     color: var(--accent-color);
+}
+
+/* ================ END COMPONENTS ======== */
+
+/* ================ HEADER ================ */
+.navigation-list-item-link,
+.header-tel-link {
+     font-weight: 600;
+     font-size: 12px;
+     line-height: 1.333;
+     letter-spacing: 0.1em;
+}
+
+.navigation-list-item-link {}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+     color: var(--accent-color);
+}
+
+.header-tel-link {
+     text-transform: uppercase;
+}
+
+/* ================ END HEADER ========== */
+
+/* ================ HERO ================ */
+.hero-title {
+     font-family: var(--secondary-font);
+     font-weight: bold;
+     font-size: 72px;
+     line-height: 1.181;
+     letter-spacing: 0.05em;
+}
+
+/* ================ END HERO ================ */
+
+/* ================ ABOUT ================ */
+.about-text {
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.857;
+     letter-spacing: 0.02em;
+}
+
+/* ================ END ABOUT ================ */
+
+/* ================ SERVICES ================ */
+.services-list-item-text {
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 1.667;
+     letter-spacing: 0.02em;
+     color: #9da4bd;
+}
+
+/* ================ END SERVICES ================ */
+
+/* ================ ADVANTAGES ================ */
+.advantages-list-item-number {
+     font-weight: 700;
+     font-size: 42px;
+     line-height: 1.357;
+     letter-spacing: 0.05em;
+     color: #303030;
+}
+
+.advantages-list-item-description {
+     font-weight: 600;
+     font-size: 11px;
+     line-height: 1.364;
+     color: #303030;
+}
+
+/* ================ END ADVANTAGES ========= */
+
+/* ================ MASTERS ================ */
+.masters-list-item-name {
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 1.389;
+     letter-spacing: 0.02em;
+     color: #303030;
+}
+
+.masters-list-item-position {
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.357;
+     letter-spacing: 0.02em;
+     color: #ff6c00;
+}
+
+/* ================ END MASTERS ============ */
+
+/* ================ GALLERY ================ */
+
+/* ================ END GALLERY ============ */
+
+/* ================ CONTACT FORM =========== */
+
+/* ================ END CONTACT FORM ======= */
+
+/* ================ CONTACT ================ */
+.contact-list-link,
+.contact-date {
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 1.667;
+     letter-spacing: 0.02em;
+     color: #9da4bd;
+}
+
+/* ================ END CONTACT =========== */
+
+/* ================ FOOTER ================ */
+.copyright {
+     font-weight: 600;
+     font-size: 11px;
+     line-height: 1.363;
+     letter-spacing: 0.2em;
+     color: #9da4bd;
+}
+
+/* ================ END FOOTER ============= */
+
+
