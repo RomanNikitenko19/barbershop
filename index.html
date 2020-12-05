@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Barbershop</title>
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-     <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
         <div class="container header-container">
             <nav class="navigation">
-                <a class="link logo" href="./index.html" aria-label="логотип барбершопа">
+                <a class="link logo animate__heartBeat" href="./index.html" aria-label="логотип барбершопа">
                     <svg width="69" heigth="54">
-                         <use href="./images/sprite.svg#logo"></use>
+                        <use href="./images/sprite.svg#logo"></use>
                     </svg>
                 </a>
                 <ul class="list navigation-list">
@@ -37,7 +38,7 @@
             <address class="address">
                 <a class="link header-tel-link" href="tel:+380441111111">+38 044 111 11 11</a>
             </address>
-            <button class="modal-btn" type="button">онлайн-запись</button>
+            <button class="modal-btn modal-btn-dark-theme" type="button" data-modal-open >онлайн-запись</button>
         </div>
     </header>
     <main>
@@ -85,7 +86,7 @@
                         и жаждет перемен. И когда ты попадешь в руки нашего мастера,
                         то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
                         Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-                    <button class="modal-btn modal-btn-light-theme" type="button">онлайн-запись</button>
+                    <button class="modal-btn modal-btn-light-theme" type="button" >онлайн-запись</button>
                 </div>
             </div>
         </section>
@@ -142,7 +143,7 @@
                         </li>
                     </ul>
                 </div>
-                <button class="modal-btn modal-btn-dark-theme" type="button">онлайн-запись</button>
+                <button class="modal-btn modal-btn-dark-theme" type="button" >онлайн-запись</button>
             </div>
         </section>
 
@@ -192,7 +193,7 @@
                     <li class="masters-list-item">
                         <img class="masters-list-item-img" src="./images/masters/master-1.jpg" alt="фото мастера"
                             width="370" height="346">
-                         <div class="masters-list-item-footer">
+                        <div class="masters-list-item-footer">
                             <h3 class="masters-list-item-name" lang="en">John Smith</h3>
                             <p class="masters-list-item-position" lang="en">Extreme Barber</p>
                             <ul class="list social-list">
@@ -243,7 +244,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на инстаграм">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#instagram"></use>
+                                            <use href="./images/sprite.svg#instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -251,7 +252,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на твитер">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#twitter"></use>
+                                            <use href="./images/sprite.svg#twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -259,7 +260,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на фейсбук">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#facebook"></use>
+                                            <use href="./images/sprite.svg#facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -267,7 +268,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на линкедин">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#linkedin"></use>
+                                            <use href="./images/sprite.svg#linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -285,7 +286,7 @@
                                    <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на инстаграм">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#instagram"></use>
+                                            <use href="./images/sprite.svg#instagram"></use>
                                         </svg>
                                    </a>
                                 </li>
@@ -293,7 +294,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на твитер">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#twitter"></use>
+                                            <use href="./images/sprite.svg#twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -301,7 +302,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на фейсбук">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#facebook"></use>
+                                            <use href="./images/sprite.svg#facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -309,7 +310,7 @@
                                     <a class="social-list-item-link" href="" target="_blank"
                                         aria-label="ссылка на линкедин">
                                         <svg class="social-list-item-svg">
-                                             <use href="./images/sprite.svg#linkedin"></use>
+                                            <use href="./images/sprite.svg#linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -347,20 +348,40 @@
             </div>
         </section>
 
-        <div>
+        <div class="contakt-wrapper">
             <!-- CONTACT FORM -->
-            <section></section>
+            <section class="section contakt-form-section">
+                <div class="contact-form-section-wrapper">
+                    <h2 class="title title-dark-theme">Онлайн-запись</h2>
+                    <form class="contakt-form">
+
+                        <div class="contact-form-field">
+                            <input type="text" name="user-name" class="contact-form-input" id="user-name" required placeholder=" ">
+                            <label for="user-name" class="contact-form-label">Имя*</label>
+                        </div>
+
+                        <div class="contact-form-field">
+                            <input type="tel" name="user-phone" class="contact-form-input" id="user-phone" required placeholder=" ">
+                            <label for="user-phone" class="contact-form-label">Телефон*</label>
+                        </div>
+
+                        <textarea name="user-message" class="contact-form-message" placeholder="сообщение"></textarea>
+
+                        <button type="submit" class="contact-form-btn contact-form-btn-dark-theme">отправить</button>
+                    </form>
+                </div>
+            </section>
 
             <!-- CONTACT -->
-            <section class="section contact">
-                <h2 class="title">Контакты</h2>
+            <section class="section contact-section">
+                <h2 class="title title-dark-theme">Контакты</h2>
                 <ul class="list contact-list">
                     <li class="contact-list-item">
                         <address class="address">
                             <a class="link contact-list-link" href="https://goo.gl/maps/zMtT8BieKgNjo3TC7"
                                 target="_blank">
                                 <svg class="contact-list-link-svg">
-                                     <use href="./images/sprite.svg#map-pin"></use>
+                                    <use href="./images/sprite.svg#map-pin"></use>
                                 </svg>
                                 ул.
                                 Васильковая, 7А
@@ -370,8 +391,8 @@
                     <li class="contact-list-item">
                         <address class="address">
                             <a class="link contact-list-link" href="tel:+380441111111">
-                                 <svg class="contact-list-link-svg">
-                                     <use href="./images/sprite.svg#phone"></use>
+                                <svg class="contact-list-link-svg">
+                                    <use href="./images/sprite.svg#phone"></use>
                                 </svg>
                                 +38 044 111 11 11</a>
                         </address>
@@ -381,13 +402,13 @@
                             <a class="link contact-list-link"
                                 href="mailto:barbershop@email.com">
                                 <svg class="contact-list-link-svg">
-                                     <use href="./images/sprite.svg#mail"></use>
+                                    <use href="./images/sprite.svg#mail"></use>
                                 </svg>
                                 barbershop@email.com</a>
                         </address>
                     </li>
                 </ul>
-                <p class="subtitle">время работы</p>
+                <p class="subtitle subtitle-dark-theme">время работы</p>
                 <p class="contact-date">Ежедневно с 9:00 до 22:00</p>
             </section>
         </div>
@@ -406,5 +427,36 @@
             </ul>
         </div>
     </footer>
+    <!--MODAL-->
+    <div class="backdrop is-hidden" data-modal>
+
+        <div class="form-wrapper">
+            <button class="form-wrapper-close-btn" type="button" data-modal-close >
+                <svg class="form-wrapper-close-btn-svg">
+                    <use href="./images/sprite.svg#close"></use>
+                </svg>
+            </button>
+
+                <h2 class="title title-dark-theme">Онлайн-запись</h2>
+
+                <form>
+                    <div class="contact-form-field">
+                        <input type="text" name="user-name" class="contact-form-input" id="user-name" required placeholder=" ">
+                        <label for="user-name" class="contact-form-label">Имя*</label>
+                    </div>
+
+                    <div class="contact-form-field">
+                        <input type="tel" name="user-phone" class="contact-form-input" id="user-phone" required placeholder=" ">
+                        <label for="user-phone" class="contact-form-label">Телефон*</label>
+                    </div>
+
+                    <textarea name="user-message" class="contact-form-message" placeholder="сообщение"></textarea>
+
+                    <button type="submit" class="contact-form-btn contact-form-btn-dark-theme">отправить</button>
+                </form>
+        </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
