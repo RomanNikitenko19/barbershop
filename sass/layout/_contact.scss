@@ -1,0 +1,16 @@
+.contact-list-link,
+.contact-date {
+     // @include font($text-font-size, 400, 1.667, 0.02);
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 1.667;
+     letter-spacing: 0.02em;
+     color: #9da4bd;
+}
+
+.contact-list-link-svg {
+     width: 24px;
+     height: 24px;
+     margin-right: 20px;
+     margin-top: 6px;
+}

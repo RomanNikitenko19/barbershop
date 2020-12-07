@@ -1,0 +1,21 @@
+.about-container {
+     display: flex;
+}
+
+.about-gallery {
+     display: flex;
+     margin-right: 64px;
+}
+
+.about-gallery-item:not(:last-child) {
+     margin-right: 30px;
+}
+
+.about-text {
+     // @include font(14, 400, 1.857, 0.2);
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.857;
+     letter-spacing: 0.02em;
+     margin-bottom: 40px;
+}
